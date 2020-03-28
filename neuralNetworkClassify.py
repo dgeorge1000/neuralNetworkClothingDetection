@@ -66,7 +66,7 @@ for i in range(20):
     plt.grid(False)
     plt.imshow(train_images[i], cmap=plt.cm.binary)
     plt.xlabel(class_names[train_labels[i]])
-plt.show()
+    plt.show()
     '''
 
 
